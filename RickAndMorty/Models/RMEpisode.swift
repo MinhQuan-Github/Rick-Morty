@@ -1,5 +1,5 @@
 //
-//  RMEspisode.swift
+//  RMEpisode.swift
 //  RickAndMorty
 //
 //  Created by Minh Quan on 13/01/2023.

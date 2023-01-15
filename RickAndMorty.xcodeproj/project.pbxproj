@@ -27,6 +27,9 @@
 		FB3AA9342971148F0082B227 /* RMCharacterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3AA9332971148F0082B227 /* RMCharacterStatus.swift */; };
 		FB3AA936297114BF0082B227 /* RMCharacterGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3AA935297114BF0082B227 /* RMCharacterGender.swift */; };
 		FB3AA9602973C0560082B227 /* RMGetAllCharacterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3AA95F2973C0560082B227 /* RMGetAllCharacterResponse.swift */; };
+		FB3AA9622973F6780082B227 /* RMCharacterListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3AA9612973F6780082B227 /* RMCharacterListViewViewModel.swift */; };
+		FB3AA9642973F77D0082B227 /* CharacterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3AA9632973F77D0082B227 /* CharacterListView.swift */; };
+		FB3AA9662973FB430082B227 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3AA9652973FB430082B227 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +55,9 @@
 		FB3AA9332971148F0082B227 /* RMCharacterStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterStatus.swift; sourceTree = "<group>"; };
 		FB3AA935297114BF0082B227 /* RMCharacterGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterGender.swift; sourceTree = "<group>"; };
 		FB3AA95F2973C0560082B227 /* RMGetAllCharacterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGetAllCharacterResponse.swift; sourceTree = "<group>"; };
+		FB3AA9612973F6780082B227 /* RMCharacterListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterListViewViewModel.swift; sourceTree = "<group>"; };
+		FB3AA9632973F77D0082B227 /* CharacterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListView.swift; sourceTree = "<group>"; };
+		FB3AA9652973FB430082B227 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,9 +94,9 @@
 				FB3AA917297101430082B227 /* APIClients */,
 				FB3AA9162971013B0082B227 /* Managers */,
 				FB3AA9152971012F0082B227 /* ViewModels */,
+				FB3AA912297101160082B227 /* Views */,
 				FB3AA914297101260082B227 /* Controllers */,
 				FB3AA913297101200082B227 /* Models */,
-				FB3AA912297101160082B227 /* Views */,
 				FB3AA90C2970FFCC0082B227 /* Info.plist */,
 			);
 			path = RickAndMorty;
@@ -99,6 +105,7 @@
 		FB3AA912297101160082B227 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FB3AA9632973F77D0082B227 /* CharacterListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -123,6 +130,7 @@
 		FB3AA9152971012F0082B227 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				FB3AA9612973F6780082B227 /* RMCharacterListViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -151,6 +159,7 @@
 				FB3AA9092970FFCC0082B227 /* LaunchScreen.storyboard */,
 				FB3AA8FE2970FFC90082B227 /* AppDelegate.swift */,
 				FB3AA9002970FFC90082B227 /* SceneDelegate.swift */,
+				FB3AA9652973FB430082B227 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -261,6 +270,7 @@
 			files = (
 				FB3AA9602973C0560082B227 /* RMGetAllCharacterResponse.swift in Sources */,
 				FB3AA930297113390082B227 /* RMOrigin.swift in Sources */,
+				FB3AA9642973F77D0082B227 /* CharacterListView.swift in Sources */,
 				FB3AA932297113AB0082B227 /* RMSingleLocation.swift in Sources */,
 				FB3AA9342971148F0082B227 /* RMCharacterStatus.swift in Sources */,
 				FB3AA936297114BF0082B227 /* RMCharacterGender.swift in Sources */,
@@ -268,8 +278,10 @@
 				FB3AA8FF2970FFC90082B227 /* AppDelegate.swift in Sources */,
 				FB3AA9212971027E0082B227 /* RMLocationViewController.swift in Sources */,
 				FB3AA925297102AC0082B227 /* RMEpisodeViewController.swift in Sources */,
+				FB3AA9622973F6780082B227 /* RMCharacterListViewViewModel.swift in Sources */,
 				FB3AA927297103730082B227 /* RMSettingViewController.swift in Sources */,
 				FB3AA91E297101EE0082B227 /* RMEpisode.swift in Sources */,
+				FB3AA9662973FB430082B227 /* Extensions.swift in Sources */,
 				FB3AA9012970FFC90082B227 /* SceneDelegate.swift in Sources */,
 				FB3AA92A29710CDE0082B227 /* RMService.swift in Sources */,
 				FB3AA923297102920082B227 /* RMCharacterViewController.swift in Sources */,
